@@ -1,22 +1,22 @@
 # AML Transaction Anomaly Detector - Project Overview
 
-## 🎯 Project Summary
+##Project Summary
 
 A production-ready **Anti-Money Laundering (AML) Transaction Anomaly Detection System** that demonstrates the intersection of machine learning, rule-based systems, and explainable AI for financial crime detection.
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 AML Project 1/
 │
-├── 📄 Core Engine Files
+├── Core Engine Files
 │   ├── aml_detector.py              # Main orchestration engine
 │   ├── baseline_engine.py           # Customer baseline computation
 │   ├── rule_engine.py              # Rule-based AML detection
 │   ├── ml_engine.py                # ML anomaly detection (IF, SVM, LOF)
 │   └── explainability_engine.py    # Explanation generation
 │
-├── 🌐 User Interfaces
+├── User Interfaces
 │   ├── app.py                      # Streamlit web interface
 │   └── cli_demo.py                 # Command-line demo
 │
@@ -25,17 +25,17 @@ AML Project 1/
 │   ├── generate_sample_data.py     # Sample data generator
 │   └── requirements.txt            # Python dependencies
 │
-├── 📚 Documentation
+├── Documentation
 │   ├── README.md                   # Main documentation
 │   ├── QUICKSTART.md              # Quick start guide
 │   ├── INSTALLATION.md            # Installation instructions
 │   └── PROJECT_OVERVIEW.md        # This file
 │
-└── 🚀 Setup
+└── Setup
     └── setup.sh                    # Automated setup script
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Components
 
@@ -81,7 +81,7 @@ AML Project 1/
 └─────────────┘  └─────────────┘  └─────────────┘
 ```
 
-## 🔍 Detection Pipeline
+## Detection Pipeline
 
 ### 1. Training Phase
 
@@ -127,7 +127,7 @@ explanation = generate_explanation(
 # Returns: risk_score, severity, reasons, recommendation
 ```
 
-## 🎨 Key Features
+## Key Features
 
 ### 1. Multi-Model ML Detection
 
@@ -181,7 +181,7 @@ Every alert includes:
 - **Detailed Breakdown**: All contributing factors
 - **Recommendation**: Specific action to take
 
-## 📊 Web Interface Features
+##Web Interface Features
 
 ### Dashboard Page
 - Total transactions analyzed
@@ -208,7 +208,7 @@ Every alert includes:
 - Amount distribution by severity
 - Interactive Plotly charts
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -219,7 +219,7 @@ Every alert includes:
 | **Visualization** | Plotly, matplotlib | Charts and graphs |
 | **Deployment** | Local/Cloud | Flexible hosting |
 
-## 📈 Performance Characteristics
+## Performance Characteristics
 
 ### Scalability
 - **Training**: ~10 seconds for 1,000 transactions
@@ -234,16 +234,16 @@ Every alert includes:
 - **Recall**: ~85% (finds most suspicious transactions)
 
 ### Detection Capabilities
-- ✅ High-risk jurisdictions
-- ✅ Structuring/smurfing patterns
-- ✅ Rapid movement
-- ✅ Large/unusual amounts
-- ✅ Behavioral deviations
-- ✅ ML-detected anomalies
-- ✅ Temporal patterns
-- ✅ Geographic anomalies
+- High-risk jurisdictions
+-  Structuring/smurfing patterns
+- Rapid movement
+- Large/unusual amounts
+- Behavioral deviations
+-  ML-detected anomalies
+-  Temporal patterns
+- Geographic anomalies
 
-## 🔒 Security & Compliance
+##  Security & Compliance
 
 ### Current Features
 - Anomaly detection (ML + Rules)
@@ -264,7 +264,7 @@ Every alert includes:
 - Data retention policies
 - Compliance with BSA/AMLD/etc.
 
-## 🎓 Educational Value
+##  Educational Value
 
 This project demonstrates:
 
@@ -277,7 +277,7 @@ This project demonstrates:
 7. **Software Engineering**: Modular design, clean code
 8. **Domain Knowledge**: AML regulations and patterns
 
-## 🚀 Use Cases
+##  Use Cases
 
 ### 1. Small Bank/Credit Union
 - Monitor daily transactions
@@ -343,7 +343,7 @@ from sklearn.ensemble import RandomForest
 self.random_forest = RandomForest(...)
 ```
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Short Term
 - [ ] Real-time streaming detection
@@ -367,7 +367,7 @@ self.random_forest = RandomForest(...)
 - [ ] Federated learning
 - [ ] Blockchain integration
 
-## 📊 Sample Results
+##  Sample Results
 
 From test data (200 transactions):
 
@@ -390,42 +390,9 @@ Top Risk Factors:
 5. ML detected: 25 cases
 ```
 
-## 🤝 Contributing
 
-Ideas for contributions:
-- Additional ML models
-- New AML rules
-- Better visualizations
-- Performance optimizations
-- Documentation improvements
-- Test coverage
-- Integration examples
 
-## 📄 License
 
-MIT License - Free for educational and commercial use.
 
-## 🙏 Acknowledgments
 
-Inspired by:
-- Real-world AML systems at major banks
-- FATF (Financial Action Task Force) guidelines
-- FinCEN regulations
-- Academic research in anomaly detection
-- Open-source ML community
-
-## 📞 Support
-
-For questions or issues:
-1. Check documentation (README.md, QUICKSTART.md)
-2. Review configuration (config.py)
-3. Verify installation (INSTALLATION.md)
-4. Check sample data generation
-
----
-
-**Built with ❤️ to demonstrate the power of AI in fighting financial crime**
-
-Version: 1.0.0  
-Last Updated: November 2024
 
