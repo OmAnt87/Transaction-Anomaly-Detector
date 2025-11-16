@@ -303,7 +303,7 @@ This project demonstrates:
 - Understand explainable AI
 - Prototype new methods
 
-## 📝 Customization Guide
+## Customization Guide
 
 ### Adjust Detection Sensitivity
 
