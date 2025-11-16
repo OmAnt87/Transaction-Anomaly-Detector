@@ -20,7 +20,7 @@ AML Project 1/
 │   ├── app.py                      # Streamlit web interface
 │   └── cli_demo.py                 # Command-line demo
 │
-├── 🔧 Configuration & Data
+├── Configuration & Data
 │   ├── config.py                   # System configuration
 │   ├── generate_sample_data.py     # Sample data generator
 │   └── requirements.txt            # Python dependencies
